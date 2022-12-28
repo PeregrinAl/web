@@ -9,7 +9,9 @@ class Body extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return SingleChildScrollView(
       child: Column(
-        children: [headerWithTheSearchBox(size: size)],
+        children: [
+          headerWithTheSearchBox(size: size),
+        ],
       ),
     );
   }
